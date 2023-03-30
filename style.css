@@ -1,0 +1,55 @@
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Consolas;
+    letter-spacing: 1px;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    margin-bottom: 7%;
+	max-width: fit-content;
+	text-align: center;
+}
+
+.footer1 {
+    display: block;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.footer2 {
+    display: block;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: auto;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 28%;
+    margin-right: 2%;
+}
+
+.left, .center, .right {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 250px;
+}
+
+.sub-title {
+    margin-bottom: 5%;
+}
